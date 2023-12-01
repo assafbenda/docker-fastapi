@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "docker-fastapi"
+version = "0.1.0"
+description = "Fast API Integration with docker sample"
+authors = ["Assaf Ben David <assaf.bendavid@solaredge.com>"]
+readme = "README.md"
+packages = [{include = "docker_fastapi"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.104.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

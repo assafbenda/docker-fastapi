@@ -1,0 +1,1 @@
+poetry run bash -c '.'poetry.toml
