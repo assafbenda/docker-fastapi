@@ -9,6 +9,9 @@ packages = [{include = "docker_fastapi"}]
 [tool.poetry.dependencies]
 python = "^3.9"
 fastapi = "^0.104.1"
+uvicorn = "^0.24.0.post1"
+sqlalchemy = "^2.0.23"
+pydantic = "^2.5.2"
 
 
 [build-system]

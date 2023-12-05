@@ -1,0 +1,11 @@
+from enum import Enum
+
+
+class DeviceType(Enum):
+    CONTROLLER = "CONTROLLER"
+    INVERTER = "INVERTER"
+    HEATPUMP = "HEATPUMP"
+    WATER_HEATER = "WATER_HEATER"
+    BATTERY = "BATTERY"
+    RASPBERRY_PI = "RASPBERRY_PI"
+    OTHER = "OTHER"
